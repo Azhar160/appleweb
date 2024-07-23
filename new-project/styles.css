@@ -1,0 +1,147 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container ul li
+{
+  padding: .8vw;  
+}
+
+.container ul li i
+{
+    font-size: 1.5em;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+#wrapper
+{
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper .image-1 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.image-2
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.image-2 img
+{
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper .image-3
+{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#wrapper .image-3 img
+{
+    width: 50%;
+}
+
+#wrapper .main-img
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#wrapper .main-img .image-4
+{
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper .main-img .image-4 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.crousel
+{
+    background-color: black;
+}
+
+.carousel
+{
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/*------------------ Footer - Section---------------*/
+
+footer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 243, 243);
+}
+
+footer .paragraph
+{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+footer .paragraph p
+{
+    font-size: .8em;
+}
+
+.horizontal-line
+{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+    margin: 10px 0;
+}
+
+.last-section
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.shop a
+{
+  text-decoration: none;
+  color: gray;
+  font-size: .8em;
+}
+
+.shop a:hover
+{
+    border-bottom: 2px solid black;
+}
+
+.shop h6
+{
+    color: gray;
+}
+
+.d-flex p:hover
+{
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
